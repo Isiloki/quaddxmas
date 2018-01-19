@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace quaddxmas.DTOs
 {
-    class Carte
+    public class Carte
     {
     }
 }

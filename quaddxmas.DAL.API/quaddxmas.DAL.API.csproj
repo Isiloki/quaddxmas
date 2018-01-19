@@ -40,8 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PersonnageDAO.cs" />
+    <Compile Include="IPersonnageDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\quaddxmas.DTOs\quaddxmas.DTOs.csproj">
+      <Project>{ab6b06af-2ca7-43dd-ae01-d1b7d6c1e37c}</Project>
+      <Name>quaddxmas.DTOs</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

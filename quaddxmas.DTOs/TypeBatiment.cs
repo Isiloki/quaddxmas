@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace quaddxmas.DTOs
 {
-    class TypeBatiment
+    public enum TypeBatiment
     {
+        Auberge,
+        Tannerie,
+        Forge,
+        Alchimie,
+        Chateau,
+        Mur,
+        TourDeGarde,
+        Banque,
+        Marche,
+        Taverne
     }
 }

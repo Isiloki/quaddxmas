@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace quaddxmas.DTOs
 {
-    public class Batiment
+    public class Position
     {
+        public int Carte { get; set; }
+        public int Abscisse { get; set; }
+        public int Ordonnee { get; set; }
     }
 }

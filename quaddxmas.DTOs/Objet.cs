@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace quaddxmas.DTOs
 {
-    class Objet
+    public class Objet
     {
+        public int Id { get; set; }
+        public int ProprietaireId { get; set; }
+        public List<StatModificateur> Modificateur { get; set; }        
+        public Position position { get; set; }
+
     }
 }

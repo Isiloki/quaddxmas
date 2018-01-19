@@ -45,8 +45,11 @@
     <Compile Include="Compte.cs" />
     <Compile Include="Objet.cs" />
     <Compile Include="Personnage.cs" />
+    <Compile Include="Position.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Squadd.cs" />
+    <Compile Include="StatistiqueType.cs" />
+    <Compile Include="StatModificateur.cs" />
     <Compile Include="TypeBatiment.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
