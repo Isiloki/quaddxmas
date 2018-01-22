@@ -8,5 +8,17 @@ namespace quaddxmas.DTOs
 {
     public class Carte
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public List<DefiningPoint> Limites { get; set; }
+
+        public class DefiningPoint
+        {
+            public int Numero { get; set; }
+            public int Abscisse { get; set; }
+            public int Ordonnee { get; set; }
+        }
     }
+
+    
 }

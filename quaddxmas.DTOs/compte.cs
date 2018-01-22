@@ -12,5 +12,6 @@ namespace quaddxmas.DTOs
         public string Identifiant { get; set; }
         public string MotDePasse { get; set; }
         public List<Personnage> Personnages { get; set; }
+        public string Email { get; set; }
     }
 }

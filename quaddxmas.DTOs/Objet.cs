@@ -11,7 +11,7 @@ namespace quaddxmas.DTOs
         public int Id { get; set; }
         public int ProprietaireId { get; set; }
         public List<StatModificateur> Modificateur { get; set; }        
-        public Position position { get; set; }
+        public Position Position { get; set; }
 
     }
 }

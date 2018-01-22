@@ -19,6 +19,17 @@ namespace quaddxmas.DTOs
         public int Apprentissage { get; set; }
         public int Sensibilite { get; set; }
         public string Nom { get; set; }
-        public Position position { get; set; }
+        public Position Position { get; set; }
+        public List<StatModificateur> Modificateurs { get; set; }
+        public int CurrentHP { get; set; }
+        public int MaxHP { get; set; }
+        public int XP { get; set; }
+        public int Niveau { get; set; }
+        public int Or { get; set; }
+        public Squadd Squadd { get; set; }
+        public List<Objet> Objets { get; set; }
+        public List<Batiment> Batiments { get; set; }
+        
+
     }
 }

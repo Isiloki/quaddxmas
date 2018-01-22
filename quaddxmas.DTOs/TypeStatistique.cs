@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace quaddxmas.DTOs
 {
-    public enum StatistiqueType
+    public enum TypeStatistique
     {
         Force,
         Dexterite,
