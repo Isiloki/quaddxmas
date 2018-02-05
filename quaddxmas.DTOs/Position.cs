@@ -11,5 +11,15 @@ namespace quaddxmas.DTOs
         public int Carte { get; set; }
         public int Abscisse { get; set; }
         public int Ordonnee { get; set; }
+        public Position(int carte, int abscisse, int ordonnee)
+        {
+            Carte = carte;
+            Abscisse = abscisse;
+            Ordonnee = ordonnee;
+        }
+        public Position()
+        {
+
+        }
     }
 }

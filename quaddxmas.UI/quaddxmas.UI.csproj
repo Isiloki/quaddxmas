@@ -204,6 +204,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\quaddxmas.DTOs\quaddxmas.DTOs.csproj">
+      <Project>{ab6b06af-2ca7-43dd-ae01-d1b7d6c1e37c}</Project>
+      <Name>quaddxmas.DTOs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\quaddxmas.Managers\quaddxmas.Managers.csproj">
+      <Project>{d0199fb3-f877-4661-a6b4-0662f2cd6bbd}</Project>
+      <Name>quaddxmas.Managers</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

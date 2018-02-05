@@ -43,5 +43,19 @@
     <Compile Include="PersonnageManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\quaddxmas.DAL.API\quaddxmas.DAL.API.csproj">
+      <Project>{e4de1f52-a0e1-4479-b182-636bacfd8413}</Project>
+      <Name>quaddxmas.DAL.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\quaddxmas.DAL\quaddxmas.DAL.csproj">
+      <Project>{4c65f65f-2d25-4512-b001-f320a80bf103}</Project>
+      <Name>quaddxmas.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\quaddxmas.DTOs\quaddxmas.DTOs.csproj">
+      <Project>{ab6b06af-2ca7-43dd-ae01-d1b7d6c1e37c}</Project>
+      <Name>quaddxmas.DTOs</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

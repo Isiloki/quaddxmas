@@ -9,8 +9,7 @@ namespace quaddxmas.DTOs
     public class StatModificateur
     {
         public int Id { get; set; }
-        public int Modificateur { get; set; }
-        public TypeStatistique StatistiqueType { get; set; }
+        public Statistique Statistiques { get; set; }
         public int DureeEnSecondes { get; set; }
         public int CibleId { get; set; }
         public bool IsQuestItem { get; set; }

@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quaddxmas.UI", "quaddxmas.U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quaddxmas.DAL", "quaddxmas.DAL\quaddxmas.DAL.csproj", "{4C65F65F-2D25-4512-B001-F320A80BF103}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Tests", "05-Tests", "{738CF5FC-0252-46BA-9AE5-0C2C99513BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quaddxmas.Tests", "quaddxmas.Tests\quaddxmas.Tests.csproj", "{C5749763-5F7B-40CE-BCF1-3CFDB3952D98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{4C65F65F-2D25-4512-B001-F320A80BF103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C65F65F-2D25-4512-B001-F320A80BF103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C65F65F-2D25-4512-B001-F320A80BF103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5749763-5F7B-40CE-BCF1-3CFDB3952D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5749763-5F7B-40CE-BCF1-3CFDB3952D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5749763-5F7B-40CE-BCF1-3CFDB3952D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5749763-5F7B-40CE-BCF1-3CFDB3952D98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{D0199FB3-F877-4661-A6B4-0662F2CD6BBD} = {46D5FF43-DB85-42F6-BEFA-5517FC2460EF}
 		{27F570D1-EB2A-4D50-8126-14E979411850} = {F479F4CA-0C1B-4C8A-8FB3-A89E5833FC3C}
 		{4C65F65F-2D25-4512-B001-F320A80BF103} = {933FED14-8FE5-481F-BDCC-33DDE9A3BDE7}
+		{C5749763-5F7B-40CE-BCF1-3CFDB3952D98} = {738CF5FC-0252-46BA-9AE5-0C2C99513BEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E6A982D-9D04-4C50-A3BC-B5901E2C6676}

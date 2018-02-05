@@ -12,7 +12,7 @@ namespace quaddxmas.DTOs
         public string Name { get; set; }
         public int Richesse { get; set; }
         public string Description { get; set; }
-        public List<Personnage> Membres { get; set; }
-        public List<Batiment> Possessions { get; set; }
+        public virtual List<Personnage> Membres { get; set; }
+        public virtual List<Batiment> Possessions { get; set; }
     }
 }

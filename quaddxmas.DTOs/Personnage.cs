@@ -9,15 +9,7 @@ namespace quaddxmas.DTOs
     public class Personnage
     {
         public int Id { get; set; }
-        public int Force { get; set; }
-        public int Dexterite { get; set; }
-        public int Resistance { get; set; }
-        public int Vision { get; set; }
-        public int Intelligence { get; set; }
-        public int Recuperation { get; set; }
-        public int Guerison { get; set; }
-        public int Apprentissage { get; set; }
-        public int Sensibilite { get; set; }
+        public Statistique StatistiquesNaturelles { get; set; }
         public string Nom { get; set; }
         public Position Position { get; set; }
         public List<StatModificateur> Modificateurs { get; set; }
@@ -27,9 +19,9 @@ namespace quaddxmas.DTOs
         public int Niveau { get; set; }
         public int Or { get; set; }
         public Squadd Squadd { get; set; }
-        public List<Objet> Objets { get; set; }
-        public List<Batiment> Batiments { get; set; }
-        
+        public virtual List<Objet> Objets { get; set; }
+        public virtual List<Batiment> Batiments { get; set; }
+
 
     }
 }

@@ -10,9 +10,17 @@ namespace quaddxmas.DAL
 {
     public class PersonnageDAO : IPersonnageDAO
     {
-        public bool CreatePersonnage(Personnage personnage)
+        private BddContext bdd;
+
+        public PersonnageDAO()
         {
-            throw new NotImplementedException();
+            bdd = new BddContext();
+        }
+
+        public void CreatePersonnage(Personnage personnage)
+        {
+            bdd.Personnages.Add(personnage);
+            bdd.SaveChanges();
         }
 
         public Personnage GetPersonnage(int index)
@@ -22,12 +30,18 @@ namespace quaddxmas.DAL
 
         public Personnage GetPersonnage(string name)
         {
-            throw new NotImplementedException();
+            BddContext bdd2 = new BddContext();
+            return bdd2.Personnages.Where(p => p.Nom == name).FirstOrDefault<Personnage>();
         }
 
         public bool UpdatePersonnage(Personnage personnage)
         {
             throw new NotImplementedException();
+        }
+
+        public void Dispose()
+        {
+            bdd.Dispose();
         }
     }
 }
